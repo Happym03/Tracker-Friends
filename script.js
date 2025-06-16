@@ -91,6 +91,7 @@ submitBtn.addEventListener('click', () => {
         } else {
             quiz.innerHTML = `
                 <h2>You answered ${score}/${quizData.length} questions correctly</h2>
+                <h2>Congratulations THABILE MNGOMA, you are the best friend ever!</h2>
 
                 <button onclick="location.reload()">Reload</button>
             `
